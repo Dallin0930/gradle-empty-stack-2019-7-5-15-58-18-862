@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class AppTest {
     @Test public void testAppHasAGreeting() {
-        App app=new App("mobile","blue","vivo");
-        app.call();
+        AndroidPhone ad=new AndroidPhone("mobile","blue","vivo");
+        ad.call();
     }
 }
