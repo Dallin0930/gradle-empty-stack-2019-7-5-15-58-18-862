@@ -8,5 +8,9 @@ public class AppTest {
     @Test public void testAppHasAGreeting() {
         AndroidPhone ad=new AndroidPhone("mobile","blue","vivo");
         ad.call();
+        App ap=new App("vb","blue","vio");
+        ap.printSpecical();
     }
 }
+
+

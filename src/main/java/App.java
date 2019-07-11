@@ -13,9 +13,30 @@ public class App {
     	this.color=color;
     	this.brand=brand;
     }
+    
+    public String getName(String name)
+    {
+      return this.name;
+    }
+    
+    public String getColor(String color)
+    {
+      return this.color;
+    }
+    
+    public String getBrand(String brand)
+    {
+      return this.brand;
+    }
+    
     public void call()
     {
     	System.out.print("hello world");
     }
    
+    public void printSpecical()
+    {
+    	System.out.println("name:"+"["+this.getName(brand)+"]"+"color:"+"["+this.getName(color)+"]"+"brand"+"["+this.getName(brand)+"]");
+    }
+    
 }
